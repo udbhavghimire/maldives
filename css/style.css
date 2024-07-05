@@ -118,6 +118,20 @@ font-family: "Helvetica Neue" !important;
     text-decoration-thickness: 2px;
 }
 
+.nav-pills .nav-item .nav-link.active {
+    padding: 0.5rem 1rem !important;
+    position: relative;
+    font-weight: 500;
+    background-color: #000000;
+    color: #ffffff !important;
+}
+
+.card-img-top {
+    position: relative;
+    width: auto;
+    height: 500px;
+}
+
 .transparent-navbar {
     background-color: transparent;
     transition: 0.3s;
