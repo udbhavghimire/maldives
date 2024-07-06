@@ -108,14 +108,16 @@ font-family: "Helvetica Neue" !important;
     color: rgb(0, 0, 0) !important;
     font-weight: 500;
     font-size: 20px;
+    text-decoration: underline !important;
 }
 
 .nav-link:hover,
 .nav-link-active {
     color: #000000 !important;
     text-decoration: underline #ffffff !important;
-    text-underline-offset: 5px;
+    text-underline-offset: 3px;
     text-decoration-thickness: 2px;
+    text-decoration: underline rgb(13, 143, 229) !important;
 }
 
 .nav-pills .nav-item .nav-link.active {
